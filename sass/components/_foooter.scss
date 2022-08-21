@@ -1,0 +1,101 @@
+/* ------------------------FOOTER-------------------------- */
+
+.footer {
+	background: var(--dark-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.footer-lists {
+	display: flex;
+	align-items: baseline;
+}
+.footer-logo {
+	color: var(--first-title-color);
+	margin-bottom: 20px;
+}
+.footer-adress {
+	font-family: inherit;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--first-title-color);
+}
+
+.footer-contacts {
+	font-family: inherit;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--contacts-color);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+}
+}
+
+.bottom-logo {
+	display: block;
+	margin-bottom: 20px;
+}
+.footer-contact:not(last-child) {
+	margin-bottom: 9px;
+}
+.footer-soc-links {
+	margin-left: 70px;
+	
+}
+.footer-field{margin-left: 93px;}
+.footer-soc-link {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-icon {
+	fill: #ffffff;
+}
+
+.links-title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 20px;
+	display: block;
+}
+.icon-send {
+	display: block;
+	justify-content: center;
+}
+.footer-form {
+	display: flex;
+	flex-direction: row;
+}
+.footer-input {
+	background-color: transparent;
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	color:#ffffff99;
+	margin-right: 12px;
+	width: 358px;
+	padding: 16px 15px;
+	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		border: 1px solid var(--accent-color);
+}
+}
+
+.footer-button {
+	display: flex;
+	flex-direction: row;
+	max-height: 50px;
+}
+.footer-button span {
+	margin-right: 10px;
+}

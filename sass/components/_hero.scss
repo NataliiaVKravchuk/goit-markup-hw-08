@@ -1,0 +1,64 @@
+/* ------------------------HERO-------------------------- */
+.hero {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 1px solid black;
+	background-color: var(--dark-color);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero-mob-1x.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	@include retina {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/img-hero-mob-2x.jpg");
+	}
+	@include tablet {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/img-hero-tab-1x.jpg");
+		@include retina {
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url("../images/img-hero-tab-2x.jpg");
+		}
+	}
+	@include desktop {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../images/img-hero-des-1x.jpg");
+		@include retina {
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url("../images/img-hero-des-2x.jpg");
+		}
+	}
+}
+
+.hero__title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--first-title-color);
+	max-width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.button {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: var(--first-btn-color);
+	background-color: var(--accent-color);
+	border-radius: 4px;
+	border: 4px solid transparent;
+	padding: 10px 32px;
+	min-width: 200px;
+	text-align: center;
+}
