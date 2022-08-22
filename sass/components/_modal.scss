@@ -2,6 +2,7 @@
 
 .backdrop {
 	position: fixed;
+	overflow: scroll;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -24,6 +25,10 @@
 	width: 93.75%;
 	min-height: 76.5%;
 	@include tablet {
+		overflow: scroll;
+		width: 528px;
+	}
+	@include desktop {
 		width: 528px;
 		min-height: 581px;
 	}
@@ -159,6 +164,7 @@
 		line-height: 1.46;
 	}
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	cursor: pointer;
 }

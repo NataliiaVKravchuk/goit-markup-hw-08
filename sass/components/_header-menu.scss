@@ -78,6 +78,7 @@
 .mob-menu__soc {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	gap: 20px;
 }
 .mob-menu__soc-link {
