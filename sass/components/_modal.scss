@@ -24,6 +24,7 @@
 	transform: translate(-50%, -50%) scale(1) rotate(0);
 	width: 93.75%;
 	min-height: 76.5%;
+	
 	@include tablet {
 		overflow: scroll;
 		width: 528px;

@@ -386,6 +386,11 @@ img {
   color: var(--accent-color);
 }
 
+.mob-menu__soc-item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
 /* ------------------------HERO-------------------------- */
 .hero {
   text-align: center;
