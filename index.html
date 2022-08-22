@@ -22,8 +22,7 @@
 			<div class="container main-nav">
 				<nav class="nav">
 					<a class="logo header__logotype link" href="">
-						Web
-						<span class="logo__header-text">Studio</span>
+						Web<span class="logo__header-text">Studio</span>
 					</a>
 					<ul class="menu list">
 						<li class="menu__item"><a href="" class="menu__link link current">Студія</a></li>
@@ -49,18 +48,24 @@
 						</a>
 					</li>
 				</ul>
-				<button type="button" class="menu-open-btn">-</button>
+				<button type="button" class="menu-open-btn"><svg class="menu-open-icon" width="40" height="40">
+								<use href="./images/icons.svg#icon-menu_40"></use>
+							</svg></button>
 			</div>
 			<div class="mob-menu is-hidden">
 				<div class="mob-container">
-				<div class="mob-menu-top">
-					<button type="button" class="menu-close-btn">x</button>
+					<div class="mob-menu-top">
+					<button type="button" class="menu-close-btn"><svg class="menu-close-icon" width="40" height="40">
+								<use href="./images/icons.svg#icon-menu-close_40"></use>
+							</svg></button>
 					<ul class="mob-menu__list list">
 						<li class="mob-menu__item"><a href="" class="mob-menu__link link current">Студія</a></li>
 						<li class="mob-menu__item"><a href="./portfolio.html" class="mob-menu__link link">Портфоліо</a></li>
 						<li class="mob-menu__item"><a href="" class="mob-menu__link link">Контакти</a></li>
 					</ul>
-					<ul class="mob-contacts list">
+					</div>
+					<div class="mob-menu-bottom">
+						<ul class="mob-contacts list">
 						<li class="mob-contact-item">
 							<a href="tel:++380961111111" class="mob-contacts__tel link">+38 096 111 11 11</a>
 						</li>
@@ -68,8 +73,6 @@
 							<a href="mailto:info@devstudio.com" class="mob-contacts__mail link">info@devstudio.com</a>
 						</li>
 					</ul>
-					</div>
-					<div class="mob-menu-bottom">
 					<ul class="mob-menu__soc list">
 						<li class="mob-menu__soc-item">
 							<a href="" class="mob-menu__soc-link link">Instagram</a>
@@ -465,10 +468,9 @@
 		</main>
 		<footer class="footer">
 			<div class="container footer-lists">
-				<div>
+				<div class="footer-nav">
 					<a href="" class="logo link bottom-logo">
-						Web
-						<span class="footer-logo">Studio</span>
+						Web<span class="footer-logo">Studio</span>
 					</a>
 					<address id="contacts">
 						<ul class="list">
